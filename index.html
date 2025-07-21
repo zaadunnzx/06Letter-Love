@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💕 Untuk Zulpa Cantikku 💕</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <div class="floating-hearts">
+                <span class="heart">💖</span>
+                <span class="heart">💕</span>
+                <span class="heart">💗</span>
+                <span class="heart">💝</span>
+                <span class="heart">💘</span>
+            </div>
+            <h1 class="title">Untuk Zulpa Tersayang 💕</h1>
+            <p class="subtitle">Yang paling cantik sedunia ✨</p>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Love Letter Section -->
+            <section class="love-letter">
+                <div class="letter-paper">
+                    <h2>💌 Surat Cinta Untukmu</h2>
+                    <div class="letter-content">
+                        <p>Hai Zulpa cantikku... 🥰</p>
+                        <p>Kamu tau gak? Setiap hari aku bersyukur bisa kenal sama kamu. Kamu itu kayak matahari di hidupku, selalu bikin hari-hariku jadi cerah dan penuh warna! 🌈</p>
+                        <p>Senyummu itu bisa bikin aku lupa sama semua masalah. Ketawamu yang lucu itu selalu bikin jantungku berdebar-debar kayak lagi maraton! 💓</p>
+                        <p>Aku sayang banget sama kamu, Zulpa. Sayang yang bukan main-main, sayang yang dari hati paling dalam! 💖</p>
+                        <p class="signature">Dengan cinta yang gak terbatas,<br>Dari orang yang paling bucin sama kamu 😘</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Reasons Why I Love You -->
+            <section class="reasons-section">
+                <h2>💝 Kenapa Aku Sayang Sama Zulpa</h2>
+                <div class="reasons-grid">
+                    <div class="reason-card">
+                        <div class="emoji">😍</div>
+                        <h3>Cantik Banget</h3>
+                        <p>Kamu itu cantik luar dalam! Cantik yang bikin aku jatuh cinta setiap hari</p>
+                    </div>
+                    <div class="reason-card">
+                        <div class="emoji">😊</div>
+                        <h3>Senyummu</h3>
+                        <p>Senyum kamu itu obat stress paling ampuh! Bikin hati adem ayem</p>
+                    </div>
+                    <div class="reason-card">
+                        <div class="emoji">🤗</div>
+                        <h3>Baik Hati</h3>
+                        <p>Hati kamu sebaik wajah kamu. Selalu care sama orang-orang tersayang</p>
+                    </div>
+                    <div class="reason-card">
+                        <div class="emoji">😄</div>
+                        <h3>Lucu Abis</h3>
+                        <p>Tingkah kamu yang lucu selalu bikin aku ketawa dan bahagia</p>
+                    </div>
+                    <div class="reason-card">
+                        <div class="emoji">💪</div>
+                        <h3>Kuat & Mandiri</h3>
+                        <p>Kamu strong woman yang bikin aku bangga dan kagum</p>
+                    </div>
+                    <div class="reason-card">
+                        <div class="emoji">✨</div>
+                        <h3>Perfect</h3>
+                        <p>Kamu itu sempurna dengan segala kekurangan dan kelebihanmu</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Interactive Love Counter -->
+            <section class="love-counter">
+                <h2>💕 Love-o-Meter</h2>
+                <div class="meter-container">
+                    <div class="meter">
+                        <div class="meter-fill" id="loveMeter"></div>
+                    </div>
+                    <p class="meter-text">Tingkat bucin aku sama Zulpa: <span id="lovePercentage">0</span>%</p>
+                    <button class="love-button" onclick="increaseLove()">💖 Tambah Cinta!</button>
+                </div>
+            </section>
+
+            <!-- Photo Gallery -->
+            <section class="gallery">
+                <h2>🖼️ Galeri Kenangan Kita</h2>
+                <div class="photo-grid">
+                    <div class="photo-placeholder">
+                        <span>📸</span>
+                        <p>Foto pertama ketemu</p>
+                    </div>
+                    <div class="photo-placeholder">
+                        <span>🤳</span>
+                        <p>Selfie bareng</p>
+                    </div>
+                    <div class="photo-placeholder">
+                        <span>🍕</span>
+                        <p>Makan bareng</p>
+                    </div>
+                    <div class="photo-placeholder">
+                        <span>🎉</span>
+                        <p>Ultah Zulpa</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Love Messages -->
+            <section class="messages">
+                <h2>💬 Pesan-pesan Bucin</h2>
+                <div class="message-container" id="messageContainer">
+                    <div class="message">Kamu itu bintang paling terang di langit malam aku ⭐</div>
+                </div>
+                <button class="message-button" onclick="showRandomMessage()">💌 Pesan Baru</button>
+            </section>
+
+            <!-- Promise Section -->
+            <section class="promises">
+                <h2>🤝 Janji-janjiku Untuk Zulpa</h2>
+                <div class="promise-list">
+                    <div class="promise-item">
+                        <span class="promise-icon">💖</span>
+                        <p>Akan selalu sayang sama kamu sampai kapanpun</p>
+                    </div>
+                    <div class="promise-item">
+                        <span class="promise-icon">🤗</span>
+                        <p>Akan selalu ada buat kamu di saat senang maupun sedih</p>
+                    </div>
+                    <div class="promise-item">
+                        <span class="promise-icon">😊</span>
+                        <p>Akan selalu berusaha bikin kamu bahagia</p>
+                    </div>
+                    <div class="promise-item">
+                        <span class="promise-icon">🌟</span>
+                        <p>Akan jadi partner terbaik dalam semua hal</p>
+                    </div>
+                    <div class="promise-item">
+                        <span class="promise-icon">🔒</span>
+                        <p>Akan menjaga hati kamu dengan sepenuh hati</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-hearts">
+                💕 💖 💗 💝 💘 💕 💖 💗 💝 💘
+            </div>
+            <p>Dibuat dengan sepenuh hati untuk Zulpa tersayang 💕</p>
+            <p class="footer-date">© 2025 - Dengan cinta yang tak terbatas</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
